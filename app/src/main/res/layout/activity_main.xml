@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="86dp"
+        android:text="0"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="272dp"
+        android:text="คำนวณ" />
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_x="216dp"
+        android:layout_y="272dp"
+        android:text="รีเซ็ต" />
+
+    <TextView
+        android:id="@+id/nameResultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="64dp"
+        android:text="Calculator" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="126dp"
+        android:layout_height="107dp"
+        android:layout_x="38dp"
+        android:layout_y="152dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="126dp"
+        android:layout_height="107dp"
+        android:layout_x="253dp"
+        android:layout_y="151dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="199dp"
+        android:layout_y="179dp"
+        android:text="+"
+        android:textSize="36sp" />
+
+</AbsoluteLayout>
